@@ -1,5 +1,5 @@
 # PDFMerger
-<img src="SampleImages/1.png"
+<img src="SampleImages/2.png"
      alt="App GUI"
      style="float: left; margin-right: 10px;" />
      

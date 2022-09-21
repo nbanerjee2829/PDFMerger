@@ -14,6 +14,7 @@ FILEBROWSER_PATH = os.path.join(os.getenv('WINDIR'), 'explorer.exe')
 pdfs_to_convert = []
 offset = 20
 files_selected = queue.LifoQueue()
+
 # Function for opening the
 # file explorer window
 def explore(path):
@@ -81,6 +82,7 @@ def merger():
 root = tk.Tk()
 root.resizable(False, False)
 canvas = tk.Canvas(root, width= 600, height=500,bg="#000000")
+root.title("PDF Merger For Free!! For Free!! For Free!!")
 canvas.grid(columnspan=4, rowspan=3)
 # text = tk.Text(root, height=10,width=30)
 # text.grid(row=0, column=2, sticky=tk.EW)
@@ -109,10 +111,10 @@ merge_button = tk.Button(root, textvariable=browse_text,
 browse_text.set("Merge")
 merge_button.place(x=320, y=420)
 label_file_explorer = tk.Label(root,
-                            text = "File Explorer using Tkinter",
+                            text = "Try selecting Files",
                             width = 20, height = 2,
                             fg = "white", bg="#000000")
-label_file_explorer.place(x=330, y=10)
+label_file_explorer.place(x=350, y=10)
 # create the text widget
 
 

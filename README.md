@@ -1,7 +1,4 @@
 # PDFMerger
-<img src="SampleImages/2.png"
-     alt="App GUI"
-     style="float: left; margin-right: 10px;" />
     
 <h2>Setup and Running</h2>
 o	  Run "python main.py" from terminal when you are in the cloned/downloaded folder
